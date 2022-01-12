@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body class="body">
+   <div id="full">
+    <button onclick="start()" id="start_button">Start!</button>
+
+    <div class="wrapper">
+        <p>Instruction : Input a number of your choise between 0 to 1000 and get clues to go closer to my number</p>
+        <input id="guessing_input" onkeypress="return isNumber(event);" type="text" name="txtChar" ondrop="return false;" onpaste="return false;"> 
+        <button id="go_button" onclick="logic()">go</button>  
+        <p id="remark"></p> 
+
+    </div>
+    <script src="script.js"></script>
+
+  
+   </div> 
+</body>
+</html>

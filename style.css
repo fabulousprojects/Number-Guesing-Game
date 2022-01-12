@@ -1,0 +1,45 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(Diamonds.png);
+    background-size: cover;
+
+}
+
+.lower_remark {
+    text-align: left;
+}
+
+.wrapper {
+    position: absolute;
+    left:40%;
+    height:20px;
+}
+
+
+.higher-remark {
+    text-align: right;
+    
+}
+
+#start_button {
+
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    background-color:rgb(45, 205, 42);
+    border:2px solid gray;
+    position:absolute;
+    top:47%;
+    left:45%;
+}
+
+ #guessing_input{
+    height:20px;
+    font-family: 'Quicksand', sans-serif;
+} 
+
+
+#go_button {
+    height:25px;
+    font-family: 'Quicksand', sans-serif;
+}
